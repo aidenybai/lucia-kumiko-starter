@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "live-server --entry-file=public/index.html",
+    "start": "http-server",
+    "cleanup": "prettier --write public"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "live-server": "^1.2.1",
+    "prettier": "^2.2.1"
+  }
+}
